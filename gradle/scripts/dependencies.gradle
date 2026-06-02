@@ -1,0 +1,19 @@
+dependencies {
+    // Anvil Lib
+    runtimeOnly(libs.anvillib)
+    compileOnly(libs.bundles.anvillib)
+    interfaceInjectionData(libs.anvillib.recipe)
+    interfaceInjectionData(libs.anvillib.moveableEntityBlock)
+
+    // AnvilCraft
+    implementation(libs.anvilcraft) { transitive = false }
+    interfaceInjectionData(libs.anvilcraft) { transitive = false }
+
+    // JEI
+    compileOnlyApi(libs.jei.common.api) { transitive = false }
+    compileOnlyApi(libs.jei.forge.api) { transitive = false }
+    implementation(libs.jei.forge) { transitive = false }
+
+    // Jade
+    implementation(libs.jade)
+}
