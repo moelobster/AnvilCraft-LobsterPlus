@@ -1,0 +1,12 @@
+{
+  "type": "anvilcraft_lobsterplus:anvil_feature_block",
+  "anvil": {
+    "blocks": "anvilcraft_lobsterplus:lobster_anvil"
+  },
+  "ingredient": {
+    "blocks": "minecraft:dirt"
+  },
+  "result": {
+    "block": "minecraft:mud"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "anvilcraft_lobsterplus:anvil_feature_item",
+  "anvil": {
+    "blocks": "anvilcraft_lobsterplus:lobster_anvil"
+  },
+  "ingredients": [
+    {
+      "items": "minecraft:dead_tube_coral_block"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:tube_coral_block"
+    }
+  ]
+}

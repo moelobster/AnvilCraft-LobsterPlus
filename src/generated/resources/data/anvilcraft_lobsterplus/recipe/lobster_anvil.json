@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "minecraft:nautilus_shell",
+    "B": "minecraft:fire_coral_block"
+  },
+  "pattern": [
+    "AAA",
+    " B ",
+    "BBB"
+  ],
+  "result": {
+    "id": "anvilcraft_lobsterplus:lobster_anvil"
+  }
+}

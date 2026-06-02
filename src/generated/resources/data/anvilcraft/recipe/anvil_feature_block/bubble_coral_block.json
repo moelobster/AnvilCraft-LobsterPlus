@@ -1,0 +1,12 @@
+{
+  "type": "anvilcraft_lobsterplus:anvil_feature_block",
+  "anvil": {
+    "blocks": "anvilcraft_lobsterplus:lobster_anvil"
+  },
+  "ingredient": {
+    "blocks": "minecraft:dead_bubble_coral_block"
+  },
+  "result": {
+    "block": "minecraft:bubble_coral_block"
+  }
+}

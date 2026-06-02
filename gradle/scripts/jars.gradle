@@ -5,12 +5,6 @@ tasks.register('sourcesJar', Jar) {
 }
 
 jar {
-    from(project.file("LICENSE")) {
-        rename { "${it}_${mod_id}" }
-    }
-    from(project.file("ASSETS_LICENSE")) {
-        rename { "${it}_${mod_id}" }
-    }
 }
 
 base {
